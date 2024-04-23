@@ -37,6 +37,6 @@ jobs:
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: "cloudflare-85"
+          project: "cloudflare-28"
           entrypoint: "server/index.ts"
           root: ".output"
